@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     }
 
     // 2. Chamar cupons fiscais com o accessToken cru
-    const apiResp = await fetch("https://mercatto.varejofacil.com/api/v1/venda/cupons-fiscais", {
+    const apiResp = await fetch("https://mercatto.varejofacil.com/api/v1/pessoa/clientes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
